@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap&family=Caveat&family=Open+Sans:wght@300;700&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+ul {
+    justify-content: space-around;
+}
+
+.menu {
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: "Caveat";
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: rgb(66, 66, 66);
+}
+
+.menu a:hover {
+    background-color: rgb(66, 66, 66);
+    color:rgb(240, 240, 240);
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+.menu a:active {
+    background-color: rgb(66, 66, 66);
+    color:rgb(240, 240, 240);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#active {
+    background-color: rgb(66, 66, 66);
+    color:rgb(240, 240, 240);
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#active2 {
+    background-color: rgb(0, 4, 255);
+    color:rgb(240, 240, 240);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+#janela1 {
+    border: none;
+    padding: 20px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    white-space: nowrap;
+    width: 50%;
+}
+
+#janela2{
+    background-image: url(img/pessoa.jpg);
+    background-size:cover;
+    border-radius: 20px;
+}
+
+#janela3{
+    background-image: url(img/projeto1.jpg);
+    background-size:cover;
+}
+
+#janela4{
+    background-image: url(img/projeto2.jpg);
+    background-size:cover;
+}
+
+#janela5{
+    background-image: url(img/projeto3.jpg);
+    background-size:cover;
+}
+
+#img1 {
+    border-radius: 50%;
+    width: 100px;
+    align-items: center;
+
+}
+#img2 {
+    border-radius: 20px;
+    width: 100%;
+    align-items: center;
+    padding: 0%;
+} 
+
+#p:link, #qs:link, #pj:link, #c:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font: normal normal bold 20px "Open Sans";
+    white-space: nowrap;
+}
+
+#p:visited, #qs:visited, #pj:visited, #c:visited{
+    color: rgb(0, 0, 0);
+}
+
+#p:hover, #qs:hover, #pj:hover, #c:hover{
+    color: gray;
+}
+
+#p:active, #qs:active, #pj:active, #c:active{
+    color: darkgray;
+}
+
+.conteudo{
+    color: rgb(0, 0, 0);
+    font: normal normal bold 18px "Open Sans";
+    white-space: nowrap;
+}
+
+#assunto{
+    font: normal normal normal 20px "Open Sans";
+    width: 50%;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+#name, #email, #telefone{
+    font: normal normal normal 20px "Open Sans";
+    width: 50%;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+#mensagem{
+    font: normal normal normal 20px "Open Sans";
+    width: 50%;
+    height: 160px;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+#outroscontatos{
+    color: black;
+    margin: 15px;
+    font: normal normal bold 30px "Open Sans";
+}
+
+ul, #meuemail, #meulinkedin{
+    font: normal normal bold 18px "Open Sans";
+    list-style-type: none;
+    padding-left: 18px;
+}
+
+#meuemail, #meulinkedin{
+    color: blue;
+    background-color: rgb(234, 253, 253);
+    text-align: left;
+    padding-left: 0px;
+    text-decoration: underline;
+}
+
+#meuemail:hover, #meulinkedin:hover{
+    color: rgb(0, 0, 180);
+}
+
+#meuemail:active, #meulinkedin:active{
+    color: rgb(126, 0, 245);
+}
+
+#tabelacontatos{
+    border-top: 2px groove rgb(255, 248, 248);
+}
+
+#tabelap1 {
+    width: 100%;
+    padding: 3% 10% 3% 10%;
+    color: white;
+    background-image: linear-gradient(rgb(7, 7, 160), rgb(29, 29, 88));
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}
+
+#tabelap2, #tabelap3, #tabelap5, #tabelap6, #tabelap7, #tabelap8, #tabelap9 {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: left;
+
+}
+
+#tabelap4 {
+    width: 100%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t1 {
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.t2 {
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(252, 215, 7);
+}
+
+.t3 {
+    font-family: "Courier New";
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+}
+
+.t4 {
+    font-family: "Caveat";
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.t5 {
+    font-family: "Caveat";
+    font-size: 35px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.t6 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+.t7 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+}
+h2 {
+    font-family: "Open Sans";
+}
+    
+h3 {
+    font-family: "Open Sans";
+}
+
