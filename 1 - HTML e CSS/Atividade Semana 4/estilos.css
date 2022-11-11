@@ -278,7 +278,7 @@ div.rodape {
 
     .areaesquerda .menu {
         /* 7. Contêiner flexbox */
-        display: flexbox;
+        display: flex;
         /* 8. Espaço de 3vw entre itens flexbox */
         gap: 3vw;
     }
